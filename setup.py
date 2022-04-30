@@ -7,7 +7,8 @@ setuptools.setup(
     author="kdr",
     author_email="kdrhacker1234@gmail.com",
     description="Unofficial Clova AI OCR python wrapper",
-    long_description=open('README.md', encoding='utf-8').read(),
+    long_description=open('README.md', 'r', encoding='utf-8').read(),
+    long_description_content_type="text/markdown",
     url="https://github.com/kdrkdrkdr/pyclovaocr",
     packages=setuptools.find_packages(),
     classifiers=[
