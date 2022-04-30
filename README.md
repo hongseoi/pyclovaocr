@@ -1,1 +1,1 @@
-# ocr_api
+# pyclovaocr
